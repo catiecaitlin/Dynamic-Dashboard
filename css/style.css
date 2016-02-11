@@ -47,7 +47,7 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     background-color: #E8E8E8;
+     background-color: #474747;
      color: #333;
      font-size: 12px;
      line-height: 1.4;
@@ -88,7 +88,6 @@ footer {
      height: 100%;
      background: #474747;
      float: left;
-     border-top: 1px solid black;
 }
 
 .content-box {
@@ -104,6 +103,13 @@ footer {
      margin-top: 15%;
 }
 
+.content-box > a {
+     text-decoration: none;
+     color: #FFF;
+     text-align: center;
+     margin-top: 15%;
+}
+
 .sub-options li {
      background: #D7D7D7;
      color: #333;
@@ -111,6 +117,10 @@ footer {
      list-style: none;
      width: 100%;
      padding: 10px;
+}
+
+.active{
+     background: purple;
 }
 
 /*MAIN CONTENT*/
